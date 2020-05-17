@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar1">
+            <div class="navbar1_1">
+                <ul>
+                    <li><a href="#">เข้าร่วมกับเรา</a></li>
+                    <li><a href="#" id="nike-logo">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Jumpman_logo.svg/1200px-Jumpman_logo.svg.png"
+                                alt="dunk-logo">
+                        </a></li>
+                </ul>
+            </div>
+            <div class="navbar1_2">
+                <ul>
+                    <li><a href="#">ความช่วยเหลือ</a></li>
+                    <li><a href="#"><img
+                                src="https://icons-for-free.com/iconfiles/png/512/basket+buy+cart+shop+shopping+store+icon-1320073180063197567.png"
+                                alt="basket"></a></li>
+                    <li><a href="#"><img
+                                src="data:image/png;base64,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"
+                                alt="latLong"></a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="navbar2">
+            <a href="#" id="nike-logo">
+                <img src="https://lh3.googleusercontent.com/FK8EcHV1SJGHeTUJCsUhCQl0hmQu-QbC4wG6bM59S0v-rLv-jQl16YC3LQ4x-ZpPwS1cUs_4Idap57kYgcTCOQFB"
+                    alt="nike-logo" width="70" height="70">
+            </a>
+            <div>
+                <ul>
+                    <li><a href="#">บุรุษ</a></li>
+                    <li><a href="#">สตรี</a></li>
+                    <li><a href="#">เด็ก</a></li>
+                    <li><a href="#">ออกแบบด้วยตนเอง</a></li>
+                    <li><a href="#">ปฏิทินเปิดตัว</a></li>
+                    <li><a href="#">ลดราคา</a></li>
+                </ul>
+            </div>
+            <input type="text" placeholder="search" id="header-search" />
+        </nav>
+        <nav class="navbar3">
+            <div>
+                <a href="#">COVID-19: ข้อมูลเกี่ยวกับร้าน Nike และการจัดส่ง สามารถดูได้ที่นี่</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="men-nav">
+            <h1>ผู้ชาย</h1>
+            <div>
+                <ul>
+                    <li>รองเท้า</li>
+                    <li>เสื้อผ้า</li>
+                    <li>อุปกรณ์</li>
+                </ul>
+            </div>
+        </div>
+        <div class="run-shoe">
+            <img src="https://www.stepextra.com/wp-content/uploads/2018/06/Screen-Shot-2561-06-11-at-15.05.31.png"
+                width="100%" height="100%">
+            <div class="text-block">
+                <p>สินค้าใหม่</p>
+                <h1>ดีดตัวในทุกย่างเก้า</h1>
+                <p>คอลเลกชัน Air Max สีสดใสผสานผ้าตาข่ายน้ำหนักเบาเข้ากับสีสันที่อาบไปด้วยแสงอาทิตย์</p>
+                <br>
+                <button class="buy-button">เลือกซื้อ</button>
+            </div>
+        </div>
+        <div class="hot-shoe">
+            <div class="item">
+                <h1>รองเท้าเด่น</h1>
+            </div>
+            <div class="shoe-item1">
+                <img src="https://static.nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/i1-c43a9734-8bc6-4390-b321-d123b733714d/%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B8%9C%E0%B8%B9%E0%B9%89-react-phantom-run-flyknit-2-LcSGB7.jpg"
+                    alt="">
+                <div class="shoe-item-text">
+                    <div>
+                        <h4>Nike React Phantom Run Fliyknit 2</h4>
+                        <p>รองเท้าวิ่งชาย</p>
+                    </div>
+                    <span>5,200 THB</span>
+                </div>
+            </div>
+            <div class="shoe-item2">
+                <img src="https://static.nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/1dbd3173-6c80-4252-a847-dc2265cf5fce/%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%9C%E0%B8%B9%E0%B9%89-air-max-2090-mVrb8x.jpg"
+                    alt="">
+                <div class="shoe-item-text">
+                    <div>
+                        <h4>Nike Air Max 2090</h4>
+                        <p>รองเท้าชาย</p>
+                    </div>
+                    <span>5,800 THB</span>
+                </div>
+            </div>
+            <div class="shoe-item3">
+                <img src="https://static.nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/0820cac6-bda0-44d1-9633-2fc83aa9a394/%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%99%E0%B8%99%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B8%9C%E0%B8%B9%E0%B9%89-metcon-5-88qprd.jpg"
+                    alt="">
+                <div class="shoe-item-text">
+                    <div>
+                        <h4>Nike Metcon 5</h4>
+                        <p>รองเท้าเทรนนิ่งชาย</p>
+                    </div>
+                    <span>5,000 THB</span>
+                </div>
+            </div>
+        </div>
+        <div class="hit-shirt">
+            <div class="item">
+                <h1>
+                    กำลังฮิต
+                </h1>
+            </div>
+            <div class="hit-shirt-item">
+                <img src="https://in.all.biz/img/in/catalog/more/14990_nike_mens_sports_t_shirt.jpeg" alt="">
+                <div class="hit-shirt-text">
+                    <p>สินค้าประจำสปริงซีซั่น: Power Pastels</p>
+                    <button class="buy-button">เลือกซื้อ</button>
+                </div>
+            </div>
+            <div class="hit-shirt-item">
+                <img src="https://cf.shopee.co.th/file/339bbeb3c446b428e77eb496b046e365" alt="">
+                <div class="hit-shirt-text">
+                    <p>Jordan Delta โฉมใหม่</p>
+                    <button class="buy-button">เลือกซื้อ</button>
+                </div>
+            </div>
+        </div>
+        <div class="categories">
+            <div class="item">
+                <h1>อุปกรณ์ชิ้นจำเป็น</h1>
+            </div>
+            <div class="cat-item">
+                <img src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/7667ff98-4f5b-48e4-b021-2180655d83ea/%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%B7%E0%B8%94%E0%B8%9C%E0%B8%B9%E0%B9%89-sportswear-zmMkxS.jpg"
+                    alt="">
+                <div class="cat-item-button">
+                    <button class="buy-button">เสื้อและเสื้อยืด</button>
+                </div>
+            </div>
+            <div class="cat-item">
+                <img src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/0fc616b2-1a97-4060-9258-4a2e5cf3c5f3/%E0%B8%81%E0%B8%B2%E0%B8%87%E0%B9%80%E0%B8%81%E0%B8%87%E0%B8%82%E0%B8%B2%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%9C%E0%B8%B9%E0%B9%89-pro-flex-bWzQgH.jpg"
+                    alt="">
+                <div class="cat-item-button">
+                    <button class="buy-button">กางเกงขาสั้น</button>
+                </div>
+            </div>
+            <div class="cat-item">
+                <img src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/lmsezye8nfgl8wbolrgk/%E0%B8%81%E0%B8%B2%E0%B8%87%E0%B9%80%E0%B8%81%E0%B8%87%E0%B8%A7%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B8%82%E0%B8%B2%E0%B8%A2%E0%B8%B2%E0%B8%A7%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%97%E0%B8%AD-essential-Q84kKz.jpg"
+                    alt="">
+                <div class="cat-item-button">
+                    <button class="buy-button">กางเกงขายาว</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
